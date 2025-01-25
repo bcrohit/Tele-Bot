@@ -10,10 +10,10 @@ global bot
 global TOKEN
 global chat_id
 global URL
-TOKEN = os.environ.get("BOT_TOKEN")
-chat_id = os.environ.get("CHAT_ID")
-hash_url = os.environ.get("HASH_URL")
-heroku_url = os.environ.get("URL")
+TOKEN = os.environ["BOT_TOKEN"]
+chat_id = os.environ["CHAT_ID"]
+hash_url = os.environ["HASH_URL"]
+heroku_url = os.environ["URL"]
 
 bot = telegram.Bot(token=TOKEN)
 
