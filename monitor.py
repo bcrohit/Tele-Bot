@@ -111,6 +111,7 @@ def check_website():
 
     # Calculate the current hash of the website content
     current_hash = calculate_hash(content)
+    current_hash = 1
     print(f"Current hash: {current_hash}")
 
     # Get the last stored hash
