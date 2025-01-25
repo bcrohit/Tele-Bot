@@ -1,1 +1,1 @@
-web: python3 monitorv2.py
+web: python3 monitor.py

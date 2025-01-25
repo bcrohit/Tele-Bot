@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram bot credentials (replace with your actual token and chat ID)
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-CHAT_ID = os.environ.get("CHAT_ID")
+BOT_TOKEN = os.environ["BOT_TOKEN"]
+CHAT_ID = os.environ["CHAT_ID"]
 
 # Website to monitor (replace this with your target URL)
 URL = "https://www.stwdo.de/wohnen/aktuelle-wohnangebote"
