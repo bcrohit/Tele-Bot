@@ -2,3 +2,4 @@
 psycopg2
 asyncio
 python-telegram-bot
+flask
